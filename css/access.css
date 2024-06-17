@@ -161,7 +161,7 @@
     .header-site-menu.is-show {
         display: block;
     }
-    .movie {
+    .image {
         width: auto;
         max-width: 90%;
         background-color: #f8f8f8;
@@ -170,7 +170,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .movie iframe {
+    .image iframe {
         display: block;
         width: 100%;
         height: auto;
