@@ -1,0 +1,79 @@
+.members {
+    background-color: #f8f8f8;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.members h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.members h2::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-list {
+    display: flex;
+    justify-content: center; /* 中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 150px; /* 左方向のパディングを拡大 */
+    padding-right: 60px;
+    overflow-x: auto; /* 横方向のスクロールを有効にする */
+}
+
+.member-list li {
+    flex-shrink: 0;
+    width: 260px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.member-list li dt {
+    font-weight: bold;
+}
+
+
+.member-list li:first-child {
+    margin-left: 0;
+}
+
+@media (max-width: 800px) {
+
+
+    .header-site-menu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right:0;
+        color:#ffffff;
+        background-color: #736e62;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: none;
+
+    }
+    .header-site-menu.is-show {
+        display: block;
+    }
+
+    .member-list {
+        padding-left: 400px; /* 左方向のパディングを拡大 */
+        padding-right: 20px;
+        overflow-x: auto; /* 横方向のスクロールを有効にする */
+    }
+
+    .member-list li {
+        width: 220px;
+    }
+}
