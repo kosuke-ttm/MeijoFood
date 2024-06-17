@@ -6,8 +6,9 @@ nav.floating {
     left: 50px;
     background-color: #0054d2;
     }
-.header-inner{
+.header{
     background-color: rgb(87, 178, 248);
+
 }
 .first-view {
     height: calc(100vh - 110px);
