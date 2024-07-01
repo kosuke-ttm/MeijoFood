@@ -1,3 +1,7 @@
+.header{
+    background-color: rgb(87, 178, 248);
+}
+
 .title {
     height: 310px;
     background-image: url(../images/concept/wayback_machine.png);
