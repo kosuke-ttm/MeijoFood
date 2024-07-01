@@ -112,8 +112,8 @@ img {
 }
 
 .footer {
-    color: #ffffff;
-    background-color: #24211b;
+    color: rgb(245, 245, 247);
+    background-color: #0c1935;
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
