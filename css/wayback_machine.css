@@ -4,7 +4,7 @@
 
 .title {
     height: 310px;
-    background-image: url(../images/members/iLoveIMG.png);
+    background-image: url(../images/wayback_machine/wayback_machine.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -81,14 +81,12 @@
 
 .image {
     width: 930px;
-    height: 500px;
     max-width: 90%;
     background-color: #f8f8f8;
     padding: 50px 60px;
     margin-top: 55px;
     margin-left: auto;
     margin-right: auto;
-    overflow: scroll;
 }
 
 .image img {
@@ -129,6 +127,7 @@
 .image a {
     color: blue;
     text-decoration: underline;
+    overflow-wrap: break-word;
 }
 
 .footer {
